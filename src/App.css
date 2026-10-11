@@ -9,3 +9,23 @@ h1{
   font-size: 28px;
   margin-bottom: 8px;
 }
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+  display: grid;
+  gap: 8px;
+} 
+
+.item {
+  background: #fff;
+  border: 1px solid #e5e5e0;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.item.done span {
+  text-decoration: line-through;
+  color: #888;
+}
