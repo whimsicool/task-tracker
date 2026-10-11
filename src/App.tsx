@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css'  //connect to the cascading style
 
 function App() {
 
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App  //will be rendered on main.tsx
